@@ -1,0 +1,17 @@
+Performing C++ SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /home/keti-radii/dev/mqtt_pubtest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98b5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98b5c.dir/build.make CMakeFiles/cmTC_98b5c.dir/build
+make[1]: Entering directory '/home/keti-radii/dev/mqtt_pubtest/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98b5c.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -O2 -Dflag_supported   D_NDEBUG -o CMakeFiles/cmTC_98b5c.dir/src.cxx.o -c /home/keti-radii/dev/mqtt_pubtest/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: D_NDEBUG: No such file or directory
+CMakeFiles/cmTC_98b5c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_98b5c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_98b5c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/keti-radii/dev/mqtt_pubtest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_98b5c/fast' failed
+make: *** [cmTC_98b5c/fast] Error 2
+
+Source file was:
+int main() { return 0; }
